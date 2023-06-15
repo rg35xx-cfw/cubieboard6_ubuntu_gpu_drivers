@@ -190,7 +190,8 @@ install_pvr()
 	install_file libGLES_CM.so /usr/lib/libGLES_CM.so.1.14.3625561 "shared library" 0644 0:0
 	install_link libGLES_CM.so.1.14.3625561 /usr/lib/libGLES_CM.so.1
 	install_link libGLES_CM.so.1.14.3625561 /usr/lib/libGLES_CM.so
-
+	install_link libGLES_CM.so.1.14.3625561 /usr/lib/libGLESv1_CM.so.1
+	install_link libGLES_CM.so.1.14.3625561 /usr/lib/libGLESv1_CM.so
 
 	install_file libusc.so /usr/lib/libusc.so.1.14.3625561 "shared library" 0644 0:0
 	install_link libusc.so.1.14.3625561 /usr/lib/libusc.so.1
